@@ -1,0 +1,224 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body{
+                margin: 0 !important;
+                box-sizing: border-box;
+                min-height: 100vh;
+            }
+            body, input, button {
+                font-size: 14px;
+                font-family: arial,sans-serif;
+            }
+            #toplink {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                margin-top: 15px;
+            }
+            nav a{
+                margin-right: 20px;
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+            #toplink a i{
+                color: #86898b;
+                
+            }
+            .googleapps{
+                cursor: pointer;
+            }
+            .userimage{
+                max-width: 100%;
+                max-height: 100%;
+                cursor: pointer;
+            }
+            .userimage img{
+                border-radius: 50%;
+            }
+            .middlebar{
+                margin-top: 69px;
+            }
+            #logo{
+                display: flex;
+                justify-content: center;
+            }
+            #searchcontainer{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            #searchbar{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-top: 20px;
+                padding: 10px 20px;
+                border: 1px solid lightgray;
+                width: 550px;
+                height: 30px;
+                border-radius: 30px;
+            }
+            #searchbar input{
+                flex: 1;
+                padding: 10px 20px;
+                border: none;
+                outline: none;
+            }
+            #search{
+                color: gray;
+            }
+            #voice{
+                color: blue;
+                cursor: pointer;
+            }
+            #searchbar:hover{
+                box-shadow: 0 0 10px 2px lightgray;
+            }
+            #buttons{
+                padding-top: 40px;
+            }
+            button{
+                margin-left: 10px;
+                margin-right: 10px;
+                padding: 10px 15px;
+                background-color: #f8f9fa;
+                border: 1px solid #f8f9fa;
+                border-radius: 4px;
+                color: #3c4043;
+                cursor: pointer;
+            }
+            button:hover {
+                border-color: rgb(204, 202, 202);
+
+            }
+            .youtube{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                font-size: small;
+            }
+            .youtube h4{
+                margin-right: 2px;
+                margin-left: 3px;
+                font-weight: 200;
+            }
+            .youtube a{
+                text-decoration: none;
+            }
+            .youtube a:hover{
+                text-decoration: underline;
+            }
+            #language{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                font-size: smaller;
+            }
+            #language nav a{
+                color: blue;
+                margin-right: 2px;
+                margin-left: 3px;
+            }
+            .bottombar{
+                position: sticky;
+                top: 100%;
+                background-color: rgb(240, 240, 240);
+            }
+            #f1{
+                padding: 15px 30px;
+                border-bottom: 1px solid #dadce0;
+                color: #70757a;
+            }
+            #f2{
+                padding: 15px 30px;
+                font-size: 15px;
+            }
+            #f2 nav{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            #f2 nav a{
+                color: #70757a;
+                
+            }
+            @media screen and (max-width:1200px) {
+               body {
+                    justify-content: space-evenly;
+                }   
+            }
+        </style>
+    </head>
+    <body>
+        <div class="topbar">
+            <nav id="toplink">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <a class="googleapps"><img src="file:///C:/Users/0avie/Desktop/Instagram%20Post/googleapps.jpeg" width="18" height="18"></a>
+                <a class="userimage"><img src="https://media-exp1.licdn.com/dms/image/C4E03AQHNans8Inxihg/profile-displayphoto-shrink_800_800/0/1637219944577?e=1644451200&v=beta&t=bsGT_fFKxYL-6ybVlY8nH0Amsv-7F3bQHlm4rs2wyUc" width="40" height="40"></a>
+            </nav>
+        </div>
+        <div class="middlebar">
+            <div id="logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            </div>
+            <div id="searchcontainer">
+                <div id="searchbar">
+                    <div id="search"><i class="fa fa-search"></i></div>
+                    <input type="text">
+                    <div id="voice"><i class="fa fa-microphone fa-lg"></i></div>
+                </div>
+                
+                <div id="buttons">
+                    <button type="submit">Google Search</button>
+                    <button type="submit">I'm Feeling Lucky</button>
+                </div>
+            </div>
+            <div class="youtube">
+                <img src="file:///C:/Users/0avie/Desktop/Instagram%20Post/youtube.jpg" width="32" height="23">
+                <h4 style="color: red;">Live!</h4>
+                <a href="#"> Interactive experiences from the year on YouTube</a>
+            </div>
+            <div id="language">
+                <h4 style="font-weight: 200;">Google offered in: </h4>
+                <nav>
+                    <a href="">हिन्दी</a>
+                    <a href="">বাংলা</a>
+                    <a href="">తెలుగు</a>
+                    <a href="">मराठी</a>
+                    <a href="">தமிழ்</a>
+                    <a href="">ગુજરાતી</a>
+                    <a href="">ಕನ್ನಡ</a>
+                    <a href="">മലയാളം</a>
+                    <a href="">ਪੰਜਾਬੀ</a>
+                </nav>
+            </div>
+        </div>
+        <footer class="bottombar">
+            <div id="f1">India</div>
+            <div id="f2">
+                <nav>
+                    <div id="left">
+                        <a href="#">About</a>
+                        <a href="#">Advertising</a>
+                        <a href="#">Business</a>
+                        <a href="#">How Search Works</a>
+                    </div>
+                    <div id="right">
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Settings</a>
+                    </div>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
